@@ -37,7 +37,7 @@ We faced some problems running capa commands in a python script. Most of them ha
 
 ![image1](./screenshots/image1.jpeg)
 
-### From dynamic overview : 
+### From dynamic analysis view : 
 
 1. The main idea : 
 
@@ -46,7 +46,7 @@ The main idea is to find patterns that correspond to dynamic capabilities by int
 
 2. Dealing with API traces (the pickle file) : 
 
-We have collected informations about the the pickle file 
+we have collected informations from the pickle files, specifically about the calls that had been made during the execution of malware files :
 
 ![image4](./screenshots/image4.jpeg)
 ![image5](./screenshots/image5.jpeg)
@@ -57,7 +57,7 @@ We have collected informations about the the pickle file
 ![image10](./screenshots/image10.jpeg)
 ![image11](./screenshots/image11.jpeg)
 
-based on the informations that we got from the pickle files we understood that the evasive techniques, which were grouped by a specific categories, they contain the malicious apis detected, so we tries to create some rules based on those evasive techniques and apis like this example below:
+based on the informations that we got from the pickle files we understood that the evasive techniques, which were grouped by a specific categories, they contain the malicious apis detected, so we tried to create some rules based on those evasive techniques and apis like this example below:
 
 evasive techniques and apis extracted from the pickle files:
 ```
