@@ -88,7 +88,7 @@ rule:
 ```
 
 
-and with this we could detect malicious dynamic behavior based on these extracted rules.
+and with this we could detect malicious dynamic behavior based on these extracted rules, using CAPA tool.
 
 References : 
 
