@@ -31,7 +31,7 @@ In this example we can see  that this program might be able to send and receive 
 We faced some problems running capa commands in a python script. Most of them have been updated and changed. Like, when we tried to test rules with python script , we didn’t find the command to do it.
 
 
-![image3](./screenshots/image3.jpeg)
+![image1](./screenshots/image1.jpeg)
 
 ### From dynamic overview : 
 
@@ -44,7 +44,14 @@ The main idea is to find patterns that correspond to dynamic capabilities by int
 
 We have collected informations about the the pickle file 
 
-images ...
+![image4](./screenshots/image4.jpeg)
+![image5](./screenshots/image5.jpeg)
+![image6](./screenshots/image6.jpeg)
+![image7](./screenshots/image7.jpeg)
+![image8](./screenshots/image8.jpeg)
+![image9](./screenshots/image9.jpeg)
+![image10](./screenshots/image10.jpeg)
+![image11](./screenshots/image11.jpeg)
 
 based on the informations that we got from the pickle files we understood that the evasive techniques, which were grouped by a specific categories, they contain the malicious apis detected, so we tries to create some rules based on those evasive techniques and apis like this example below:
 
