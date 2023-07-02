@@ -50,7 +50,7 @@ based on the informations that we got from the pickle files we understood that t
 
 evasive techniques and apis extracted from the pickle files:
 ```
- GENERIC SANDBOX CHECK OrderedDict([('reg_keys', 12.16), ('cpuid_is_hypervisor', 33.78), ('ldt_trick', 14.86), ('idt_trick', 12.16), ('mouse_movement', 22.97), ('NumberOfProcessors', 32.43), ('loaded_dlls', 4.05), ('str_trick', 1.35)])
+GENERIC SANDBOX CHECK OrderedDict([('reg_keys', 12.16), ('cpuid_is_hypervisor', 33.78), ('ldt_trick', 14.86), ('idt_trick', 12.16), ('mouse_movement', 22.97), ('NumberOfProcessors', 32.43), ('loaded_dlls', 4.05), ('str_trick', 1.35)])
 GENERIC SANDBOX CHECK OrderedDict([('mouse_movement', 36.9), ('cpuid_is_hypervisor', 53.57), ('NumberOfProcessors', 3.57), ('disk_size_getdiskfreespace', 1.19), ('memory_space ', 1.19), ('idt_trick', 1.19), ('ldt_trick', 2.38), ('reg_keys', 1.19)])
 GENERIC SANDBOX CHECK OrderedDict([('cpuid_is_hypervisor', 20.9), ('mouse_movement', 20.9), ('NumberOfProcessors', 14.93), ('str_trick', 4.48)])
 GENERIC SANDBOX CHECK OrderedDict([('idt_trick', 5.45), ('ldt_trick', 5.45), ('cpuid_is_hypervisor', 7.27), ('reg_keys', 3.64), ('memory_space ', 1.82)])
@@ -81,6 +81,6 @@ and with this we could detect malicious dynamic behavior based on these extracte
 
 References : 
 
-https://blog.quarkslab.com/exploring-execution-trace-analysis.html
-https://opensource.com/article/21/10/linux-elf-capa 
-https://www.youtube.com/watch?v=cbmMstmsq9c&ab_channel=SANSDigitalForensicsandIncidentResponse 
+https://blog.quarkslab.com/exploring-execution-trace-analysis.html  
+https://opensource.com/article/21/10/linux-elf-capa   
+https://www.youtube.com/watch?v=cbmMstmsq9c&ab_channel=SANSDigitalForensicsandIncidentResponse   
