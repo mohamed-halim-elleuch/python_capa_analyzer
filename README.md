@@ -20,9 +20,9 @@ from the command line in the terminal and we'll just run capa point it to our pr
 here we tried to run an example and describe what we have found : 
 At first we tried to run capa on a binary file to see how it works !
 
-image1
+![image1](./screenshots/image1.jpeg)
 
-image2
+![image2](./screenshots/image2.jpeg)
 
 In this example we can see  that this program might be able to send and receive data connect to a url with an http request i see that it can manipulate files on the file system and persist via windows service.
 
@@ -31,7 +31,7 @@ In this example we can see  that this program might be able to send and receive 
 We faced some problems running capa commands in a python script. Most of them have been updated and changed. Like, when we tried to test rules with python script , we didn’t find the command to do it.
 
 
-image 3
+![image3](./screenshots/image3.jpeg)
 
 ### From dynamic overview : 
 
