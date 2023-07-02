@@ -35,7 +35,7 @@ In this example we can see  that this program might be able to send and receive 
 We faced some problems running capa commands in a python script. Most of them have been updated and changed. Like, when we tried to test rules with python script , we didn’t find the command to do it.
 
 
-![image1](./screenshots/image1.jpeg)
+![image3](./screenshots/image3.jpeg)
 
 ### From dynamic analysis view : 
 
