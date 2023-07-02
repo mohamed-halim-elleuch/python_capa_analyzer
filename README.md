@@ -94,8 +94,11 @@ in here we tried to use the rules on a normal binary file, just to make sure tha
 
 ![image12](./screenshots/image12.png)
 
+we also have found a [database](https://bazaar.abuse.ch/) of malware that could be used to test our rules.
+
 References : 
 
 https://blog.quarkslab.com/exploring-execution-trace-analysis.html  
 https://opensource.com/article/21/10/linux-elf-capa   
 https://www.youtube.com/watch?v=cbmMstmsq9c&ab_channel=SANSDigitalForensicsandIncidentResponse   
+https://bazaar.abuse.ch/
