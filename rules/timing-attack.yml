@@ -1,0 +1,7 @@
+rule:
+  meta:
+    name: timing attacks
+  features:
+    - or :
+        - api: RDTSC
+        - api: timing_WaitForSingleObjec

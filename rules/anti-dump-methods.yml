@@ -1,0 +1,8 @@
+rule:
+  meta:
+    name: anti dump methods
+  features:
+    - or:
+      - api: ErasePEHeaderFromMemory
+      - api: SizeOfImage
+       

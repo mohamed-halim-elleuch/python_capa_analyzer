@@ -1,0 +1,17 @@
+rule:
+  meta:
+    name: anti debug methods
+  features:
+    - or: 
+         - api: NtGlobalFlag
+         - api: NtQueryInformationProcess_ProcessDebugPort
+         - api: CheckRemoteDebuggerPresentAPI
+         - api: NtSetInformationThread_ThreadHideFromDebugger
+         - api: IsDebuggerPresentAPI
+         - api: GetTickCount
+         - api: Interrupt_3
+         - api: CanOpenCsrss
+         - api: IsDebuggerPresentPEB
+         - api: IsDebuggerPresentAPI
+         - api: CheckRemoteDebuggerPresentAPI
+         - api: NtQuerySystemInformation_SystemKernelDebuggerInformation

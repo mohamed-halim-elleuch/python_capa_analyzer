@@ -1,0 +1,16 @@
+rule:
+  meta:
+    name: generic sandbox check
+  features:
+    - or : 
+         - api: reg_keys
+         - api: cpuid_is_hypervisor
+         - api: ldt_trick
+         - api: idt_trick
+         - api: mouse_movement
+         - api: NumberOfProcessors
+         - api: loaded_dlls
+         - api: str_trick
+         - api: disk_size_getdiskfreespace
+         - api: memory_space
+         - api: vbox_check_mac

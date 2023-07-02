@@ -1,0 +1,6 @@
+rule:
+  meta:
+    name: envirement profiling
+  features:
+    - or :
+        - api: process_enum
