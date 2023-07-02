@@ -90,9 +90,9 @@ rule:
 
 and with this we could detect malicious dynamic behavior based on these extracted rules, using CAPA tool.
 
+in here we tried to use the rules on a normal binary file, just to make sure that the rules work fine:   
 
-
-![image12](./screenshots/image11.jpeg)
+![image12](./screenshots/image12.png)
 
 References : 
 
