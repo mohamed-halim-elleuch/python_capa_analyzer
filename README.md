@@ -90,6 +90,10 @@ rule:
 
 and with this we could detect malicious dynamic behavior based on these extracted rules, using CAPA tool.
 
+
+
+![image12](./screenshots/image11.jpeg)
+
 References : 
 
 https://blog.quarkslab.com/exploring-execution-trace-analysis.html  
